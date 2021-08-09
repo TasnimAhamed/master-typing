@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Our main  CSS -->
+  <link rel="stylesheet" href="assets/css/all.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto:wght@300;400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <title>Mastertype!</title>
+</head>
+
+<body class="container"> 
+  <h2 class="text-start py-4">mastertype</h2> 
+  <main id="main"> 
+    <div id="paraContainer" class="paragraph-container">
+      <p>Shakib Al Hasan is a Bangladeshi international cricketer and philanthropist. Shakib is considered to be one of the greatest all-rounders of  alltimes</p> 
+      <p>Early modern human or anatomically modern human are terms used to distinguish Homo sapiens that are anatomically consistent with the range of phenotypes</p>
+      <p>The Sun is the star at the center of the Solar System. It is a nearly perfect sphere of hot plasma, heated to incandescence by nuclear fusion reactions in its core</p>
+      <p>Water is an inorganic, transparent, tasteless, odorless, and nearly colorless chemical substance, which is the main constituent of Earth's hydrosphere</p>
+      <p>Climate change includes both global warming driven by human-induced emissions of greenhouse gases and the  resulting large-scale shifts in weather patterns</p>
+      <p>Air pollution is the presence of substances in the atmosphere that are harmful to the health of humans and other living beings, or cause damage to the climate or to materials</p>
+    </div>
+    <div class="typing-aria">
+      <textarea id="user-text" autofocus minlength="0" maxlength="5" cols="150" rows="4"></textarea>
+    </div>
+    <div id="about-me" class="fs-4 mt-5 ">
+      <a href="https://github.com/TasnimAhamed" target="blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.facebook.com/tasnim.ahmed.20/" target="blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.linkedin.com/in/tasnimahmed20/" target="blank">
+        <i class="fab fa-linkedin"></i></a>
+    </div>
+
+  </main>
+
+  <div id="result" class="result w-100 justify-content-center align-items-center " style="display: none;">
+    <div class="box text-center ">
+      <h5> WPM <br> <span id="wpm">0</span></h5>
+      <h5> wrong key typed <br> <span id="wrong">0</span></h5>
+     <div class="btn">
+      <button id="retry" onClick="window.location.reload()">Retry</button>
+     </div>
+    </div>
+  </div>
+
+  <script src="assets/js/jquery-3.5.1.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
